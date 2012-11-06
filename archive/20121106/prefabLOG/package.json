@@ -1,0 +1,19 @@
+{
+  "name": "prefabLOG",
+  "version": "0.0.0",
+  "description": "ERROR: No README.md file found!",
+  "main": "prefabLOG.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "",
+  "license": "BSD",
+  "dependencies": {
+    "prefab": "~0.0.0",
+    "tracer": "~0.5.1",
+    "colors": "~0.6.0-1",
+    "debug": "~0.7.0",
+    "underscore": "~1.4.2"
+  }
+}

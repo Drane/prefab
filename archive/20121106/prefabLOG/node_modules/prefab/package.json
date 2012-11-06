@@ -1,0 +1,28 @@
+{
+  "name": "prefab",
+  "version": "0.0.0",
+  "description": "Modular NodeJS cluster framework",
+  "main": "prefab.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JochenSzostek/prefab.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "modular",
+    "cluster",
+    "framework",
+    "javascript"
+  ],
+  "author": "Jochen Szostek",
+  "license": "BSD",
+  "dependencies": {
+    "xtend": "~1.0.3",
+    "airport": "~0.4.3",
+    "underscore": "~1.4.2",
+    "debug": "~0.7.0"
+  }
+}

@@ -1,0 +1,2 @@
+echo Running: DEBUG=$2 node /home/jochen/dev/code/git/prefab/prefabBIN/cn.js $1
+DEBUG=$2 node /home/jochen/dev/code/git/prefab/prefabBIN/cn.js $1

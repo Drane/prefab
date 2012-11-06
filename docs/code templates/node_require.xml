@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="javaScript" deleted="false" description="node require" enabled="true" name="req">var ${newName} = require('${newName}');&#13;
+${cursor}</template></templates>

@@ -1,0 +1,18 @@
+{
+  "name": "prefabCOUCHLOG",
+  "version": "0.0.0",
+  "description": "ERROR: No README.md file found!",
+  "main": "prefabCOUCHLOG.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "",
+  "license": "BSD",
+  "dependencies": {
+    "cradle": "~0.6.4",
+    "winston": "~0.6.2",
+    "winston-couchdb": "~0.6.1"
+  },
+  "devDependencies": {}
+}
