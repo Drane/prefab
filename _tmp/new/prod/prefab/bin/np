@@ -1,0 +1,34 @@
+#!/usr/bin/env node
+console.log("in np.js");
+
+require('../global');
+
+var name = 'Prefab';
+
+if (process.argv.length < 3) {
+  console.log(name+': missing argument (script name)');
+  console.log();
+  process.exit(1);
+}
+
+var scriptName = process.argv[2];
+env['NODE_PATH'] = __dirname + '/../..';
+
+console.dir(process.argv);
+
+if (!scriptName.match(/\.js/)) {
+  if (test('-f', scriptName + '.js'))
+    scriptName += '.js';
+}
+
+if (!test('-f', scriptName)) {
+  console.log(name+': script not found ('+scriptName+')');
+  console.log();
+  process.exit(1);
+}
+
+//
+// JavaScript
+//
+clear();
+exec('node ' + scriptName, { async: true });

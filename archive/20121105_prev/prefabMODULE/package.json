@@ -1,0 +1,16 @@
+{
+  "name": "prefabMODULE",
+  "version": "0.0.0",
+  "description": "ERROR: No README.md file found!",
+  "main": "prefabMODULE.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "",
+  "license": "BSD",
+  "dependencies": {
+    "airport": "~0.4.3",
+    "underscore": "~1.4.2"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "prefabHELPER",
+  "version": "0.0.0",
+  "description": "ERROR: No README.md file found!",
+  "main": "prefabHELPER.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": "",
+  "author": "",
+  "license": "BSD",
+  "dependencies": {
+  },
+  "devDependencies": {
+  	"mocha": "1.6.0"
+  }
+}
